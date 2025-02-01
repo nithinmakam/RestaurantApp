@@ -1,4 +1,4 @@
-package com.restaurant.app.dao;
+package com.restaurant.app.vo;
 
 import lombok.Getter;
 import lombok.Setter;
