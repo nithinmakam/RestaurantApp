@@ -75,7 +75,7 @@ public class ImageController {
         this.containerClient = blobServiceClient.getBlobContainerClient(containerName);
     }
 
-    @GetMapping("/uploadTesting")
+    @PostMapping("/uploadTesting")
     public ImageRequest uploadTesting(@RequestBody ImageRequest request) {
        return request;
     }
